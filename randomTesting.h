@@ -22,3 +22,8 @@ void listAllocation() {
 
     free(list);
 }
+
+void arrays() {
+    int arr[3] = { [0 ... 2] = 1 };
+    printf("%i %i %i", arr[0], arr[1], arr[2]);
+}

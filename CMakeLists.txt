@@ -3,4 +3,4 @@ project(C_DSA C)
 
 set(CMAKE_C_STANDARD 17)
 
-add_executable(C_DSA main.c input.c randomTesting.h)
+add_executable(C_DSA main.c input.h randomTesting.h)
