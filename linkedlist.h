@@ -4,7 +4,7 @@ typedef struct Node {
     int data;
     struct Node *next;
 }
-        Node;
+Node;
 
 Node *new(int data) {
     Node *n = malloc(sizeof(Node));
@@ -89,7 +89,7 @@ void freeLinkedList(Node *head) {
             if (inner->next == NULL) {
                 prev->next = NULL;
                 if(head == inner) {
-                    head = NULL;
+                    head = NULL; // Indicates that the entire list has been freed
                 }
 
                 free(inner);

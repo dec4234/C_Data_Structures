@@ -2,6 +2,7 @@
 #include "linkedlist.h"
 #include "randomTesting.h"
 #include "input.h"
+#include "stack.h"
 
 int main() {
     printf("Starting!\n");
@@ -9,7 +10,7 @@ int main() {
     listAllocation();
     linkedlisttest();
 
-    input();
+    bitwise();
 
 
     return 0;

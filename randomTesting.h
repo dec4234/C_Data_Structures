@@ -27,3 +27,14 @@ void arrays() {
     int arr[3] = { [0 ... 2] = 1 };
     printf("%i %i %i", arr[0], arr[1], arr[2]);
 }
+
+void bitwise() {
+    int i = 3;
+    printf("%i\n", i<<1); // Double
+    i = i<<1;
+    printf("%i\n", i>>1); // Half
+}
+
+double squareRoot(double d) {
+
+}
